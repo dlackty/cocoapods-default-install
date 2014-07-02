@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsDefaultInstall::VERSION
   spec.authors       = ["Richard Lee"]
   spec.email         = ["dlackty@gmail.com"]
-  spec.description   = %q{A short description of cocoapods-default-install.}
-  spec.summary       = %q{A longer description of cocoapods-default-install.}
-  spec.homepage      = "https://github.com/EXAMPLE/cocoapods-default-install"
+  spec.description   = %q{Makes `pod` defaults to `pod install` when `Podfile` detected.}
+  spec.summary       = spec.description
+  spec.homepage      = "https://github.com/dlackty/cocoapods-default-install"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
